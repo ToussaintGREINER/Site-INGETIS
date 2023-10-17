@@ -1,0 +1,22 @@
+body {
+    background-color: darkslategrey;
+}
+
+button {
+    width: 250px;
+    height: 150px;
+    font: Arial;
+    font-size: large;
+    background-color: cornflowerblue;
+    border: 2px solid white;
+    border-color: white;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+button:hover {
+    background-color: cadetblue;
+    border: 2px solid white;
+    color: black;
+    transition: 150ms;
+}
