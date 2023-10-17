@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="main.js"></script>
+	<title></title>
+</head>
+<body>
+	<center>
+		<h1> Calculatrice </h1>
+		<div id="gigadiv">
+			<div id="d1">
+				<input type="number" class="input1" id="nb1" placeholder="Nombre 1" required>
+				<input type="number" class="input2" id="nb2" placeholder="Nombre 2" required>
+			</div>
+		</div>
+		
+		<div id="d2">
+			<button onclick="add()">+</button>
+			<button onclick="sub()">-</button>
+			<button onclick="div()">/</button>
+			<button onclick="mult()">x</button>
+		</div>
+		
+		<div id="d3">
+			<button onclick="par()">Pariter</button>
+			<button onclick="prmt()">Permuter</button>	
+		</div>
+
+		<div id="d4">
+			<input type="number" class="result" id="result" placeholder="Résultat" disabled>
+		</div>
+		<div id="d5">
+			<input type="text" class="parite" id="parite" placeholder="Pair Ou Impair?" disabled>
+		</div>
+	</center>
+</body>
+</html>
