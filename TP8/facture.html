@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="facture_style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <h1>Facture en Javascript</h1>
+        <table>
+            <tr>
+                <td>Article :</td>
+                <td>
+                    <input type="text" id="a1" placeholder="A1">
+                </td>
+                <td>
+                    <input type="text" id="a2" placeholder="A2">
+                </td>
+                <td>
+                    <input type="text" id="a3" placeholder="A3">
+                </td>
+                <td>
+                    <input type="text" id="a4" disabled>
+                </td>
+            </tr>
+            <tr>
+                <td>Prix :</td>
+                <td>
+                    <input type="number" id="p1" placeholder="0">
+                </td>
+                <td>
+                    <input type="number" id="p2" placeholder="0">
+                </td>
+                <td>
+                    <input type="number" id="p3" placeholder="0">
+                </td>
+                <td>
+                    <button class="b1" id="b1" onclick="resetVars()">Réinitialiser</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Quantité :</td>
+                <td>
+                    <input type="number" id="q1" placeholder="0">
+                </td>
+                <td>
+                    <input type="number" id="q2" placeholder="0">
+                </td>
+                <td>
+                    <input type="number" id="q3" placeholder="0">
+                </td>
+                <td>
+                    <button class="b2" id="b2" onclick="result()">Résultat</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Résultat :</td>
+                <td>
+                    <input type="number" id="r1" disabled>
+                </td>
+                <td>
+                    <input type="number" id="r2" disabled>
+                </td>
+                <td>
+                    <input type="number" id="r3" disabled>
+                </td>
+                <td>
+                    <input type="number" id="r4" disabled>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
