@@ -1,0 +1,31 @@
+body {
+    background-color: #2a2c3b;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+img {
+    width: 360px;
+    height: 220px;
+    border-radius: 75px;
+    padding: 50px;
+}
+
+div {
+    box-shadow: black;
+}
+
+img.image1 {
+    float: left;
+    margin-left: 10%;
+}
+
+img.image2 {
+    float: right;
+    margin-right: 10%;
+}
