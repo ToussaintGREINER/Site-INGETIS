@@ -33,7 +33,34 @@ function login() {
 }
 
 function login2() {
+    var username2 = document.getElementById("t1").value;
+    var password2 = document.getElementById("t2").value;
+
+    if (username2 == null || password2 == null) {
+        return;
+    } else if (username2 == "admin" || password2 == "admin") {
+        window.location.href = "adminlogin.html";
+    } else {
+        window.location.href = "wronglogin.html";
+    }
     
+}
+
+function login3() {
+    var i = 0;
+    do {
+        var id = prompt("Entrez votre nom d'utilisateur:");
+        var mdp = prompt("Entrez votre mot de passe:");
+        if (id == "admin" && mdp=="admin") {
+            document.write("Bienvenue "+id);
+            break;
+        } else {
+            alert("Accès refusé!");
+        }
+    i += 1;
+    } while (i<3);
+    if (i==3)
+    alert("Délai dépassé");
 }
 
 function cdc() {
