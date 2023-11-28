@@ -29,3 +29,13 @@ img.image2 {
     float: right;
     margin-right: 10%;
 }
+
+img.image3 {
+    float: left;
+    margin-left: 10%;
+}
+
+img.image4 {
+    float: right;
+    margin-right: 10%;
+}
